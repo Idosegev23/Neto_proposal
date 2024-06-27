@@ -1,0 +1,31 @@
+{
+  "name": "neto_group",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel serve public/index.html",
+    "build": "parcel build public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Landing page for AI lecture proposal for Neto Group's computing unit",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/heebo": "^5.0.22",
+    "@mui/material": "^5.15.20",
+    "framer-motion": "^11.2.12",
+    "lucide-react": "^0.397.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.10.3",
+    "react-scroll-parallax": "^3.4.5",
+    "react-spring": "^9.7.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
